@@ -37,7 +37,7 @@
     color: azure;
 }
 .outputhei{
-    padding-top: 130px;
+    padding-top: 90px;
     padding-left: 15px
 }
 #display{
@@ -61,10 +61,14 @@
 .button{
     padding-left: 15px;
 }
-
+.subbutt{
+    transition: all 250ms;
+}
 .subbutt:hover{
     background-color: aliceblue;
-}
+    transform: scale(1.05) rotate(-1deg);
+  }
+    
 .lineparent{
     padding-top:24px;
     display: flex;
@@ -93,6 +97,9 @@
     width: 55px;
     height: 55px;
 }
+.row111:hover{
+    transform: scale(1.05) rotate(-1deg);
+}
 .row21{
     background-color: #292828;
     color: white;
@@ -101,6 +108,11 @@
     width: 55px;
     height: 55px;
     border: none;
+}
+.row21:hover{
+    background-color: #9d9fa1;
+    transform: scale(1.05) rotate(-1deg);
+    color: black;
 }
 .row211{
     background-color: #292828;
@@ -112,6 +124,11 @@
     width: 120px;
     height: 55px;
     border: none;
+}
+.row211:hover{
+    background-color: #9d9fa1;
+    transform: scale(1.05) rotate(-1deg);
+    color: black;
 }
 .division{
     padding-top: 1px;
