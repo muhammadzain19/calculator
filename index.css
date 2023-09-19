@@ -1,0 +1,90 @@
+.body{
+    max-width: 100%;
+    max-height: 100%;
+    background-color: gray;
+}
+.background{
+    background-color: black;
+    border-radius: 50px;
+    border: 2px solid #b8b7b6;
+    width: 280px;
+    height: 550px;
+}
+.maxwidth{
+    padding-top: 50px;
+    margin: auto;
+    max-width: 290px;
+}
+.screen{
+    height: 200px;
+}
+.outputhei{
+    padding-top: 130px;
+    padding-left: 15px
+}
+#display{
+    background-color: black;
+    border: none;
+    outline: none;
+    color: aliceblue;
+    font-size: 40px;
+    width: 240px;
+    height: 60px;
+}
+.row1{
+    display: flex;
+    gap: 10px;
+}
+.row2{
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+}
+.button{
+    padding-left: 15px;
+}
+
+.subbutt:hover{
+    background-color: aliceblue;
+
+}
+.row11{
+    background-color: #9d9fa1;
+    border-radius: 50px;
+    font-size: 22px;
+    width: 55px;
+    height: 55px;
+    border: none;
+}
+.row111{
+    background-color: #f78a0c;
+    color: antiquewhite;
+    border: none;
+    border-radius: 30px;
+    font-size: 30px;
+    width: 55px;
+    height: 55px;
+}
+.row21{
+    background-color: #292828;
+    color: white;
+    border-radius: 50px;
+    font-size: 25px;
+    width: 55px;
+    height: 55px;
+    border: none;
+}
+.row211{
+    background-color: #292828;
+    color: white;
+    border-radius: 50px;
+    text-align: start;
+    padding-left: 20px;
+    font-size: 25px;
+    width: 120px;
+    height: 55px;
+    border: none;
+}
+.division{
+    padding-top: 1px;
+}
