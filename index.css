@@ -5,10 +5,10 @@
 }
 .background{
     background-color: black;
-    border-radius: 50px;
-    border: 2px solid #b8b7b6;
+    border-radius: 40px;
+    border: 2px ridge #b8b7b6;
     width: 280px;
-    height: 550px;
+    height: 560px;
 }
 .maxwidth{
     padding-top: 50px;
@@ -17,6 +17,24 @@
 }
 .screen{
     height: 200px;
+}
+.text-img{
+    padding-top:16px ;
+    max-width: 250px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    margin: auto;
+    width: 50px;
+}
+.text{
+    padding-top: 12px;
+    margin: auto;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
 }
 .outputhei{
     padding-top: 130px;
@@ -46,6 +64,16 @@
 
 .subbutt:hover{
     background-color: aliceblue;
+}
+.lineparent{
+    padding-top:24px;
+    display: flex;
+    justify-content: center;
+}
+.hrline{
+   border: 2px solid white;
+   width: 105px;
+   border-radius: 2px;
 
 }
 .row11{
